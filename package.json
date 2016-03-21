@@ -22,5 +22,16 @@
     "typescript": "1.8.7"
   },
   "name": "pocionicplacements",
-  "description": "pocIonicPlacements: An Ionic project"
+  "description": "pocIonicPlacements: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "android"
+  ]
 }
